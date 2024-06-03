@@ -1,0 +1,109 @@
+/* cuestionario.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container and Layout */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.col {
+    width: 100%;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2e7d32;
+    margin-bottom: 30px;
+}
+
+/* Form Elements */
+form p {
+    font-size: 1.2em;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+form ol {
+    list-style-type: upper-alpha;
+    margin-left: 20px;
+}
+
+form ol li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+form input[type="radio"] {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    accent-color: #66bb6a;
+}
+
+form ol li:hover {
+    background-color: #f1f8e9;
+    border-radius: 5px;
+    padding-left: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #43a047;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+hr {
+    border: 1px solid #e0e0e0;
+    margin: 20px 0;
+}

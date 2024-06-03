@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aecff1;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4, p, table, th, td {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Didot, serif;
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h4 {
+    font-family: Optima, sans-serif;
+    color: blue;
+    text-align: right;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+i {
+    font-style: italic;
+}
+
+strong {
+    color: black;
+}
+
+/* Images */
+img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+img.align-right {
+    float: right;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Table */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: yellow;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 0.9em;
+}
+
+/* Custom Fonts and Colors */
+.font-didot {
+    font-family: Didot, serif;
+}
+
+.font-optima {
+    font-family: Optima, sans-serif;
+}
+
+.font-calibri {
+    font-family: Calibri, sans-serif;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-black {
+    color: black;
+}

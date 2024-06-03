@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9ab0e7;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h4, p, table, th, td {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'American Typewriter', serif;
+    color: yellow;
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+i {
+    font-style: italic;
+}
+
+strong {
+    color: black;
+}
+
+/* Centered image */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Ordered Lists */
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 5px 0;
+}
+
+/* Custom Fonts and Colors */
+.font-bakersignet {
+    font-family: 'Baker Signet', serif;
+}
+
+.font-calibri {
+    font-family: Calibri, sans-serif;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-pink {
+    color: pink;
+}
+
+/* Table Styles */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 0.9em;
+}

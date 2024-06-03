@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1ae96;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h6 {
+    margin: 0;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Castellar, serif;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: darkmagenta;
+    font-family: 'Book Antiqua', serif;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+i {
+    font-style: italic;
+}
+
+/* Images */
+img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+img.align-right {
+    float: right;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1em;
+    color: black;
+    padding: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: right;
+    padding: 10px;
+    background-color: #ddd;
+    font-size: 0.9em;
+}
+
+/* Marquee */
+marquee {
+    font-family: Castellar, serif;
+    color: black;
+}
+
+/* Custom Fonts and Colors */
+.font-castellar {
+    font-family: Castellar, serif;
+}
+
+.font-book-antiqua {
+    font-family: 'Book Antiqua', serif;
+}
+
+.font-calibri {
+    font-family: Calibri, sans-serif;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-dark-magenta {
+    color: darkmagenta;
+}
+
+.text-purple {
+    color: #9A03FE;
+}

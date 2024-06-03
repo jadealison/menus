@@ -1,0 +1,70 @@
+/* Global styling */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #e9b4b4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h4, h5, h6 {
+    margin: 10px 0;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Helvetica', sans-serif;
+}
+
+h2 {
+    color: navy;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+}
+
+h4 {
+    color: teal;
+    font-family: 'Calibri', sans-serif;
+}
+
+h5 {
+    font-family: 'Calibri', sans-serif;
+    color: maroon;
+}
+
+h5 + h5 {
+    color: blue;
+}
+
+h6 {
+    font-family: 'Calibri', sans-serif;
+    color: blue;
+    text-align: right;
+    margin-right: 10%;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+center {
+    text-align: center;
+    margin: 20px;
+}
+
+img {
+    width: 150px; /* Adjusted width for better alignment */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}

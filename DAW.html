@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es-MX">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="cuestionario.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+    <title> COLOCA TUS APELLIDOS </title>
+</head>
+
+
+<body>
+    <!--titulo-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 style="text-align: center;">Cuestionario sobre Casa Ecologica </h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Preguntas-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form>
+                    <p><strong>1.¿Que es una casa ecologica? </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta1" id="p11"> es una vivienda que tiene el objetivo de reducir el impacto ambiental </li>
+                        <li><input type="radio" name="pregunta1" id="p12"> es una casa de plantas</li>
+                        <li><input type="radio" name="pregunta1" id="p13"> es una casa verde </li>
+                        <li><input type="radio" name="pregunta1" id="p14"> no se</li>
+                    </ol>
+                    <p><strong>2.¿en que crees que beneficiara una casa ecologica?</strong></p>
+                    <ol type="C">
+                        <li><input type="radio" name="pregunta2" id="p21"> no se</li>
+                        <li><input type="radio" name="pregunta2" id="p23">reduccion de animales</li>
+                        <li><input type="radio" name="pregunta2" id="p22"> reducir el consumo de energia y recolectar el agua de la lluvia </li>
+                        <li><input type="radio" name="pregunta2" id="p24">ninguna de las anteriores </li>
+                    </ol>
+                    <p><strong>3.¿que materiales son mas sostenibles y amigables con el medio ambiente?</strong></p>
+                    <ol type="B">
+                        <li><input type="radio" name="pregunta3" id="p31"> materiales que compramos </li>
+                        <li><input type="radio" name="pregunta3" id="p33"> materiales reutilizados o renovables</li>
+                        <li><input type="radio" name="pregunta3" id="p32"> no se </li>
+                        <li><input type="radio" name="pregunta3" id="p34"> ninguna de las anteriores</li>
+                    </ol>
+                    <p><strong>4. Que necesitas exactamente para hacer una casa Ecologica? </strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta4" id="p41">Necesitas productos reciclabes tales como carton, tambien necesitamos herramientas como tijeras y silicon</li>
+                        <li><input type="radio" name="pregunta4" id="p42">agua</li>
+                        <li><input type="radio" name="pregunta4" id="p43">no se</li>
+                        <li><input type="radio" name="pregunta4" id="p44">ninguna de las anteriores</li>
+                    </ol>
+                    <p><strong>5. Que podria inspirarte a hacer una casa Ecologica?</strong></p>
+                    <ol type="A">
+                        <li><input type="radio" name="pregunta5" id="p55">El poder aprender como reutilizar los productos y cuidar el medio ambiente.</li>
+                        <li><input type="radio" name="pregunta5" id="p51">nada me inspira</li>
+                        <li><input type="radio" name="pregunta5" id="p52">la ayuda a los niños</li>
+                        <li><input type="radio" name="pregunta5" id="p53">inciso a y c</li>
+                    </ol>
+                    <hr />
+                    <button type="button" class="btn btn-primary" onclick="resultado()">RESULTADO</button>
+                    <hr />
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="respuestas.js"></script>
+</body>
+
+</html>
